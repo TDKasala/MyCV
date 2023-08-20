@@ -1,0 +1,62 @@
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and family */
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #c7e9c0;
+}
+
+/* Apply general styles to headings */
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Apply styles to paragraphs */
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Style the main image */
+img {
+  max-width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Style the title */
+.title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Apply hover effect to links */
+a:hover {
+  text-decoration: underline;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+
