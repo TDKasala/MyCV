@@ -1,62 +1,83 @@
-
-/* Reset default margin and padding */
-body, h1, h2, p, ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* Set a base font size and family */
+/* Add some general styling */
 body {
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #c7e9c0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/* Apply general styles to headings */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+/* Style the header section */
+.text-center {
+    margin-bottom: 30px;
+}
+
+/* Style the image */
+.img-fluid {
+    border: 5px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
 h1, h2 {
-  font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
 }
 
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-/* Apply styles to paragraphs */
+/* Style paragraphs */
 p {
-  margin-bottom: 20px;
-  line-height: 1.5;
+    color: #666666;
+    line-height: 1.6;
 }
 
-/* Style the main image */
-img {
-  max-width: 30%;
-  height: auto;
-  margin-bottom: 20px;
+/* Style the unordered list */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
 }
 
-/* Style the title */
-.title {
-  font-weight: bold;
-  font-size: 1.5em;
-  margin: 20px;
-  text-align: center;
+ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
-/* Apply hover effect to links */
+ul li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #5f9ea0;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
+/* Contact details */
+.contact-details {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
 }
 
-
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 20px auto;
+    }
+}
