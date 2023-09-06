@@ -1,4 +1,4 @@
-/* Add some general styling */
+/* General styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #F7FAFC; 
@@ -7,38 +7,38 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9); /* Use a slightly transparent white background */
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin: 50px auto;
-    color: #333333; /* Set text color for readability */
+    color: #333333;
 }
 
-/* Style the header section */
+/* Header section styling */
 .text-center {
     margin-bottom: 30px;
 }
 
-/* Style the image */
+/* Image styling */
 .img-fluid {
     border: 5px solid #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Style headings */
+/* Headings styling */
 h1, h2 {
     color: #333333;
     margin-bottom: 20px;
 }
 
-/* Style paragraphs */
+/* Paragraph styling */
 p {
     color: #666666;
     line-height: 1.6;
 }
 
-/* Style the unordered list */
+/* Unordered list styling */
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -58,7 +58,7 @@ ul li::before {
     color: #5f9ea0;
 }
 
-/* Style links */
+/* Links styling */
 a {
     color: #007bff;
     text-decoration: none;
@@ -68,7 +68,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Contact details */
+/* Contact details section styling */
 .contact-details {
     margin-top: 30px;
     padding-top: 20px;
