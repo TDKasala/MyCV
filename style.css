@@ -1,89 +1,80 @@
-/* General styling */
+/* Custom Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F7FAFC; 
-    margin: 0;
-    padding: 0;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  background-color: #343a40;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.container-fluid h1 {
+  font-size: 2.5rem;
+}
+
+.container-fluid h3 {
+  font-size: 1.5rem;
+}
+
+.container-fluid a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9);
-    max-width: 800px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin: 0 auto;
-    color: #333333;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Header section styling */
-.text-center {
-    margin-bottom: 30px;
+.container h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
 }
 
-/* Image styling */
-.img-fluid {
-    border: 5px solid #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.container p, .container ul {
+  font-size: 1.2rem;
 }
 
-/* Headings styling */
-h1, h2, h3, h4, h5, h6 {
-    color: #333333;
-    margin-bottom: 20px;
+.container li {
+  list-style-type: disc;
 }
 
-.header {
-    text-align: center;
+/* Bootstrap Classes */
+.container hr {
+  margin-top: 1.5rem;
 }
 
-/* Paragraph styling */
-p {
-    color: #666666;
-    line-height: 1.6;
+.container p.lead {
+  font-size: 1.2rem;
+  margin: 20px 0;
 }
 
-/* Unordered list styling */
-ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 30px;
-}
-
-ul li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-}
-
-ul li::before {
-    content: "\2022";
-    position: absolute;
-    left: 0;
-    color: #5f9ea0;
-}
-
-/* Links styling */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Contact details section styling */
-.contact-details {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #ccc;
-}
-
-/* Media query for responsiveness */
+/* Responsive Styling */
 @media (max-width: 768px) {
-    .container {
-        padding: 20px;
-        margin: 20px auto;
-    }
+  .container-fluid {
+      padding: 20px;
+  }
+}
+
+/* Additional Custom Styles */
+.container ul {
+  margin-left: 20px;
+}
+
+/* Custom Media Query */
+@media (max-width: 576px) {
+  .container-fluid h1 {
+      font-size: 2rem;
+  }
+
+  .container-fluid h3 {
+      font-size: 1.3rem;
+  }
 }
